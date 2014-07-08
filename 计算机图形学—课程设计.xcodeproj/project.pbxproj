@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		723D30EB180C3901008E5A26 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 723D30EA180C3901008E5A26 /* main.cpp */; };
 		723D30ED180C3901008E5A26 /* ___________.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 723D30EC180C3901008E5A26 /* ___________.1 */; };
+		723D30F4180C3915008E5A26 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 723D30F3180C3915008E5A26 /* GLUT.framework */; };
+		723D30F6180C391E008E5A26 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 723D30F5180C391E008E5A26 /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,8 @@
 		723D30E7180C3901008E5A26 /* 计算机图形学—课程设计 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "计算机图形学—课程设计"; sourceTree = BUILT_PRODUCTS_DIR; };
 		723D30EA180C3901008E5A26 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		723D30EC180C3901008E5A26 /* ___________.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "___________.1"; sourceTree = "<group>"; };
+		723D30F3180C3915008E5A26 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		723D30F5180C391E008E5A26 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				723D30F6180C391E008E5A26 /* OpenGL.framework in Frameworks */,
+				723D30F4180C3915008E5A26 /* GLUT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +50,8 @@
 		723D30DE180C3901008E5A26 = {
 			isa = PBXGroup;
 			children = (
+				723D30F5180C391E008E5A26 /* OpenGL.framework */,
+				723D30F3180C3915008E5A26 /* GLUT.framework */,
 				723D30E9180C3901008E5A26 /* 计算机图形学—课程设计 */,
 				723D30E8180C3901008E5A26 /* Products */,
 			);
@@ -60,8 +68,8 @@
 		723D30E9180C3901008E5A26 /* 计算机图形学—课程设计 */ = {
 			isa = PBXGroup;
 			children = (
-				723D30EA180C3901008E5A26 /* main.cpp */,
 				723D30EC180C3901008E5A26 /* ___________.1 */,
+				723D30EA180C3901008E5A26 /* main.cpp */,
 			);
 			path = "计算机图形学—课程设计";
 			sourceTree = "<group>";
@@ -225,6 +233,7 @@
 				723D30F2180C3901008E5A26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
